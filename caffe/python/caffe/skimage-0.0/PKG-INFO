@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: skimage
+Version: 0.0
+Summary: Dummy package that points to scikit-image
+Home-page: https://github.com/scikit-image/scikit-image
+Author: Stefan van der Walt
+Author-email: stefanv@berkeley.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

@@ -1,0 +1,45 @@
+item {
+  name: "none_of_the_above"
+  label: 0
+  display_name: "background"
+}
+item {
+  name: "D00"
+  label: 1
+  display_name: "D00"
+}
+item {
+  name: "D01"
+  label: 2
+  display_name: "D01"
+}
+item {
+  name: "D10"
+  label: 3
+  display_name: "D10"
+}
+item {
+  name: "D11"
+  label: 4
+  display_name: "D11"
+}
+item {
+  name: "D20"
+  label: 5
+  display_name: "D20"
+}
+item {
+  name: "D40"
+  label: 6
+  display_name: "D40"
+}
+item {
+  name: "D43"
+  label: 7
+  display_name: "D43"
+}
+item {
+  name: "D44"
+  label: 8
+  display_name: "D44"
+}

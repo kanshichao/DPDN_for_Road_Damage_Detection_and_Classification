@@ -1,0 +1,27 @@
+train_net: "models/VGGNet/VOC0712/SSD_1024x1024/train.prototxt"
+test_net: "models/VGGNet/VOC0712/SSD_1024x1024/test.prototxt"
+test_iter: 19
+test_interval: 1000
+base_lr: 9.99999974738e-06
+display: 10
+max_iter: 240000
+lr_policy: "multistep"
+gamma: 0.10000000149
+momentum: 0.899999976158
+weight_decay: 0.000500000023749
+snapshot: 1000
+snapshot_prefix: "models/VGGNet/VOC0712/20181109_SSD_1024x1024/VGG_VOC0712_SSD_1024x1024"
+solver_mode: GPU
+device_id: 0
+debug_info: false
+snapshot_after_train: true
+test_initialization: false
+average_loss: 20
+stepvalue: 40000
+stepvalue: 100000
+stepvalue: 120000
+iter_size: 2
+type: "SGD"
+eval_type: "detection"
+ap_version: "11point"
+

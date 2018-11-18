@@ -1,0 +1,5 @@
+setup.py
+skimage.egg-info/PKG-INFO
+skimage.egg-info/SOURCES.txt
+skimage.egg-info/dependency_links.txt
+skimage.egg-info/top_level.txt
