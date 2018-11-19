@@ -10,4 +10,4 @@ This project is to produce the submitted results of the "Road Damage Detection a
 1. Data set preparation: Download the training data from the competition page and delete the category of "D30".
 2. Generate training and validation samples based on the training samples (99:1).
 3. Replacing the corresponding pathes in the scripts of "caffe/data/create_list.sh" and "caffe/data/create_data.sh" and running them.
-4. Runing the training script of "caffe/models/VGGNet/VOC0712/bdc2018/ssd_bdc2018.py". The training details are presented in the technical pape.
+4. Runing the training script of "caffe/models/VGGNet/VOC0712/bdc2018/ssd_bdc2018.py". The training details are presented in the technical paper.
