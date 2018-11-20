@@ -16,4 +16,4 @@ This project is to produce the submitted results of the "Road Damage Detection a
 The trained models of Faster-RCNN can be downloaded from Baidu Link.
 
 ## Model training of Faster-RCNN
-Running the script of "rcnn/train_end2end.py" to train the model of Faster-RCNN.
+Running the script of "rcnn/train_end2end.py" to train the model of Faster-RCNN. The deatils can be found in the technical paper.
