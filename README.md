@@ -13,6 +13,7 @@ This project is to produce the submitted results of the "Road Damage Detection a
 4. Runing the training script of "caffe/models/VGGNet/VOC0712/bdc2018/ssd_bdc2018.py". The training details are presented in the technical paper.
 
 ## Results of Faster-RCNN
-
+The trained models of Faster-RCNN can be downloaded from Baidu Link.
 
 ## Model training of Faster-RCNN
+Running the script of "rcnn/train_end2end.py" to train the model of Faster-RCNN.
