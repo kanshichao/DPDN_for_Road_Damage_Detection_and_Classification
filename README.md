@@ -14,6 +14,9 @@ This project is to produce the submitted results of the "Road Damage Detection a
 
 ## Results of Faster-RCNN
 The trained models of Faster-RCNN can be downloaded from [this link](http://ml.cs.tsinghua.edu.cn/~shifeng/dpdn.html).
+Running the script of "python demo.py --image data/test_Adachi_00001.jpg --prefix model/trousers --epoch 0060 --gpu 0" to train the model of Faster-RCNN. The deatils can be found in the technical paper.
 
 ## Model training of Faster-RCNN
-Running the script of "rcnn/train_end2end.py" to train the model of Faster-RCNN. The deatils can be found in the technical paper.
+1. Download the pretrained resnet-101 model with mxnet format from the website of mxnet repo.
+2. Run the script "python train_end2end.py --network resnet --pretrained model/resnet-101 --pretrained_epoch 0000 --gpu 0,1,2,3 --end_epoch 100 --lr_step 30"
+3. Run the script with the trained models "python train_end2end.py --network resnet --resume --begin_epoch 0014 --gpu 0,1,2,3 --end_epoch 60 --lr_step 25"
